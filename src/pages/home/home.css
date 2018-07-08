@@ -1,0 +1,65 @@
+footer{
+width:100%;
+height: 350px;
+background:#f2f2f2;
+margin: 0    
+}
+footer h1{
+ padding: 20px 70px 50px;
+ text-align: center;
+ font-size: 50px;
+ transition: 1s;
+ margin-top:0; 
+}
+footer .client-logo{
+    text-align: center;
+    /*background: #6E6D6C;*/
+}
+footer section img{
+    height:15vh;
+}
+footer img{
+    box-sizing: border-box
+}
+footer img:hover{
+    margin-left: 10px;
+    margin-right:10px;
+    height:20vh;
+    border-bottom: 5px outset #6E6D6C;
+}
+
+@media(max-width:920px){
+    /*.logofooter{
+        z-index: 1;
+        position: relative;
+        top:-30px;
+        left:20px;
+        text-align: center;
+        height:10vh;
+    }*/
+
+    
+    footer img:hover{
+        margin-left: 10px;
+        margin-right:10px;
+        height:15vh;
+        border-bottom: 5px outset #6E6D6C;
+    } 
+}
+@media(max-width:500px){
+    footer{
+        height: 500px;
+           
+        }
+    
+}
+@media(max-width:320px){
+    footer img:hover{
+        margin-left: 0px;
+        margin-right:0px;
+        height:15vh;
+        border-bottom: 5px outset #6E6D6C;
+    } 
+}
+
+
