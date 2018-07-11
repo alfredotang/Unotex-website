@@ -29,14 +29,6 @@ footer img:hover{
 }
 
 @media(max-width:920px){
-    /*.logofooter{
-        z-index: 1;
-        position: relative;
-        top:-30px;
-        left:20px;
-        text-align: center;
-        height:10vh;
-    }*/
 
     
     footer img:hover{
