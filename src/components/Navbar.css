@@ -123,6 +123,13 @@ nav ul li a:hover{
         color:#fff;
 
     }
+    nav ul li .active,
+    nav ul li a:hover{
+        color:#fff;
+        border-radius: 0px;
+        background: #f00;
+
+    }
 }
 @media(max-width:420px){
     nav.scrollNav{
