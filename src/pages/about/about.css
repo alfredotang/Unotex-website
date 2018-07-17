@@ -1,37 +1,36 @@
-.home-article{
-    margin: 20px;
-    padding: 10px;
-    
+.home-article {
+  margin: 20px;
+  padding: 10px;
 }
-.home-article h1{
-    text-align: center;
-    font-family: 'Shrikhand', cursive;
-} 
-.home-article p{
-    padding:10px;
-    font-family: 'Playfair Display', serif;
+.home-article h1 {
+  text-align: center;
+  font-family: 'Shrikhand', cursive;
 }
-.home-article p span{
-    padding:10px;
-    float: right;
-    font-family: 'Playfair Display', serif;
+.home-article p {
+  padding: 10px;
+  font-family: 'Playfair Display', serif;
+}
+.home-article p span {
+  padding: 10px;
+  float: right;
+  font-family: 'Playfair Display', serif;
 }
 
-@media(max-width:400px){
-    .home-article h1{
-        font-size: 20px;
-        text-align: center;
-    }
-    .home-article p{
-        font-size: 10px;
-    }  
+@media (max-width: 400px) {
+  .home-article h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .home-article p {
+    font-size: 10px;
+  }
 }
-@media(max-width:330px){
-    .home-article h1{
-        font-size: 15px;
-        text-align: center;
-    }
-    .home-article p{
-        font-size: 10px;
-    }  
+@media (max-width: 330px) {
+  .home-article h1 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .home-article p {
+    font-size: 10px;
+  }
 }
